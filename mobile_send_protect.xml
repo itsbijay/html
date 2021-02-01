@@ -6,12 +6,12 @@
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides"
   xsi:type="MailApp">
 
-  <Id>D2490B2A-0CB8-4B4F-AD70-C520AUE6E3FC</Id>
+  <Id>D0590B2A-0CB8-4B4F-AD70-C520AFA6E3FC</Id>
   <Version>1.0</Version>
-  <ProviderName>Mobile Send Protect</ProviderName>
+  <ProviderName>Send Protect POC</ProviderName>
   <DefaultLocale>en-us</DefaultLocale>
-  <DisplayName DefaultValue="Mobile Send Protect" />
-  <Description DefaultValue="Mobile Send Protect" />
+  <DisplayName DefaultValue="Send Protect POC" />
+  <Description DefaultValue="Send Protect POC" />
 
   <Requirements>
     <Sets DefaultMinVersion="1.1">
@@ -22,7 +22,7 @@
   <FormSettings>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://601777c4d7c90c14908fc040--confident-dijkstra-ddf8f7.netlify.app/" />
+        <SourceLocation DefaultValue="https://601788c883abdb0007dfb01a--confident-dijkstra-ddf8f7.netlify.app/" />
       </DesktopSettings>
     </Form>
   </FormSettings>
@@ -46,6 +46,8 @@
       <Hosts>
         <Host xsi:type="MailHost">
           <DesktopFormFactor>
+            <!-- The functionfile and function name to call on message send.  -->
+            <!-- In this particular case the function validateRecipients will be called within the JavaScript code referenced in residUILessFunctionFileUrl. -->
             <FunctionFile resid="residUILessFunctionFileUrl" />
             <ExtensionPoint xsi:type="Events">
               <Event Type="ItemSend" FunctionExecution="synchronous" FunctionName="validateRecipients" />
@@ -56,7 +58,7 @@
       <Resources>
         <bt:Urls>
           <!-- The JavaScript code is hosted on a secure and trusted web server. -->
-          <bt:Url id="residUILessFunctionFileUrl" DefaultValue="https://601777c4d7c90c14908fc040--confident-dijkstra-ddf8f7.netlify.app/index.html" ></bt:Url>
+          <bt:Url id="residUILessFunctionFileUrl" DefaultValue="https://601788c883abdb0007dfb01a--confident-dijkstra-ddf8f7.netlify.app" ></bt:Url>
         </bt:Urls>
       </Resources>
     </VersionOverrides>
