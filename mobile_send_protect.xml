@@ -22,7 +22,7 @@
   <FormSettings>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://60178e11d3430b2d4fc8744f--confident-dijkstra-ddf8f7.netlify.app/" />
+        <SourceLocation DefaultValue="https://6017913be390a100072d87f6--confident-dijkstra-ddf8f7.netlify.app/" />
       </DesktopSettings>
     </Form>
   </FormSettings>
@@ -58,7 +58,7 @@
       <Resources>
         <bt:Urls>
           <!-- The JavaScript code is hosted on a secure and trusted web server. -->
-          <bt:Url id="residUILessFunctionFileUrl" DefaultValue="https://60178e11d3430b2d4fc8744f--confident-dijkstra-ddf8f7.netlify.app" ></bt:Url>
+          <bt:Url id="residUILessFunctionFileUrl" DefaultValue="https://6017913be390a100072d87f6--confident-dijkstra-ddf8f7.netlify.app" ></bt:Url>
         </bt:Urls>
       </Resources>
     </VersionOverrides>
