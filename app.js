@@ -8,7 +8,7 @@ Office.initialize = function (reason) {
 // Invoke by Contoso Subject and CC Checker add-in before send is allowed.
 // <param name="event">MessageSend event is automatically passed by BlockOnSend code to the function specified in the manifest.</param>
 function validateRecipients(event) {
-	alert('triggers');
+	console.log('triggers');
 	//mailboxItem.to.getAsync({ asyncContext: event }, function (asyncResult) {
 	//	if (asyncResult.status === Office.AsyncResultStatus.Succeeded) {
 	//		openDialogAsIframe();
